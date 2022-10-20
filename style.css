@@ -1,6 +1,27 @@
-* {
-  box-sizing: border-box;
+.header {
+  height: 40px;
+  width: 100%;
+  /* Sets border to bottom only */
+  border-bottom: 10px solid darkblue;
+  background-color: lightblue
 }
+
+.footer {
+  border-bottom: 10px solid darkblue;
+  background-color: lightblue
+}
+
+section {
+  width: 70%;
+  margin: 20px auto;
+  background-color: lightblue
+}
+
+.section image {
+  height: 30px;
+  width: 400%;
+}
+
 
 /* Style inputs */
 input[type=text], select, textarea {
@@ -21,7 +42,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: blue;
 }
 
 /* Style the container/contact section */
@@ -52,4 +73,5 @@ input[type=submit]:hover {
     width: 100%;
     margin-top: 0;
   }
-}
+
+  
